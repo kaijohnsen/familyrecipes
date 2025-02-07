@@ -35,9 +35,9 @@
 <?php while ($row = mysqli_fetch_assoc($recipes)) :  ?>
 
 <tr>
-  <td><?php echo $row['recipe_name']; ?></td>
-  <td><?php echo $row['ingredients']; ?></td>
-  <td><?php echo $row['special']; ?></td>
+  <td><?php echo stripslashes($row['recipe_name']); ?></td>
+  <td><?php echo stripslashes($row['ingredients']); ?></td>
+  <td><?php echo stripslashes($row['special']); ?></td>
   <td><?php echo $row['date']; ?></td>
 </tr><!-- end of HTML table row -->
 

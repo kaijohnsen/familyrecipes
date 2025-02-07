@@ -46,7 +46,7 @@ if (isset($_POST['recipe_name']) && isset($_POST['ingredients'])) {
         // close db connection
         mysqli_close($conn);
     } // end of prepare if-statement
-    echo "Your recipe " . $recipe_name . " was entered successfully!";
+    echo "Your recipe " . stripslashes($recipe_name) . " was entered successfully!";
 } else {
     echo "Failed to enter new record!";
 } // end of isset if-statement
