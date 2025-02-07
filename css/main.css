@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Nunito Sans', Verdana, sans-serif;
+    background: linear-gradient(45deg, #323E49, #A2B9B7);
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    text-align: center;
+    font-family: 'Bree Serif', Georgia, serif;
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 30px auto;
+    background: #A2B9B7;
+    padding: 3rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    line-height: 1.4;
+}
+
+#recipes {
+    width: 90%;
+    margin: auto;
+}
+
+#recipes p {
+    font-size: 1.4rem;
+    line-height: 1.3;
+}
+
+
+label {
+    display: block;
+    padding-top: 0.7rem;
+}
+
+input, select {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    padding: 10px 25px;
+    background: #7894af;
+    border: 1px solid #88c4bf;
+    border-radius: 10px;
+    color: #f3f3f3;
+    font-size: 1.2rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #6c7b8d;
+}
+
+a {
+    color: #4b5d6e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #576b7e;
+}
+
+table {
+    width: 100%;
+    background: linear-gradient(-500deg, #5a7084, #9bb1ae);
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 15px 33px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #333;
+    word-wrap: break-word;
+}
+
+th {
+    text-align: left;
+    background-color: #8b9f9d;
+}
+
+td {
+    text-align: left;
+}
+
+tbody tr:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+@media screen and (max-width: 800px) {
+    #container {
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    #recipes {
+        width: 100%;
+        
+    }
+
+    table {
+        width: 100%;
+    }
+
+    input, select {
+        font-size: 1.2rem;
+    }
+
+    input[type="submit"] {
+        font-size: 1rem;
+    }
+}
