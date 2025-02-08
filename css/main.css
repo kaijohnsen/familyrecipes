@@ -1,5 +1,5 @@
 html, body {
-    min-height: 100%;
+    height: 100%;
     margin: 0;
     font-family: 'Nunito Sans', Verdana, sans-serif;
     background: linear-gradient(45deg, #323E49, #A2B9B7);
@@ -74,6 +74,7 @@ a:hover {
 
 table {
     width: 100%;
+    height: 100%;
     background: linear-gradient(-500deg, #5a7084, #9bb1ae);
     border-collapse: collapse;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
