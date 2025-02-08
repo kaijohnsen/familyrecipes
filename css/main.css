@@ -1,5 +1,5 @@
 html, body {
-    height: 100%;
+    min-height: 100%;
     margin: 0;
     font-family: 'Nunito Sans', Verdana, sans-serif;
     background: linear-gradient(45deg, #323E49, #A2B9B7);
@@ -77,13 +77,15 @@ table {
     background: linear-gradient(-500deg, #5a7084, #9bb1ae);
     border-collapse: collapse;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin: 20px auto;
 }
 
 th, td {
-    padding: 15px 33px;
+    padding: 15px 20px;
+    margin: 0;
     background-color: rgba(255, 255, 255, 0.2);
+    font-size: inherit;
     color: #333;
-    word-wrap: break-word;
 }
 
 th {
